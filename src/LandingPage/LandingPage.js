@@ -32,35 +32,10 @@ function Carousel() {
     )
 }
 
-function Cards(props) {
-    return (
-        <div className="col-6 col-lg-3">
-            <div className="card rounded mb-3">
-                <img src={ props.img } className="card-img"/>
-                <div>
-                    <h4 className="card-title">{ props.type }</h4>
-                </div>
-            </div>
-        </div>
-    )
-}
-
 function LandingPage() {
     return (
         <div>
             <Carousel />
-            <div className="container">
-                <div className="row text-center">
-                   <Cards type="Alianças" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Brincos" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Correntes" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Pulseiras" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Bolsas" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Carteiras" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Óculos" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                   <Cards type="Relógios" img="https://images.tcdn.com.br/img/editor/up/1224278/redonda5mm.jpg" />
-                </div>
-            </div>
         </div>
     )
 }
